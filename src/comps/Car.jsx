@@ -10,7 +10,7 @@ import { Mesh } from 'three'
   );
   useEffect(() => {
     glft.scene.scale.set(0.005, 0.005, 0.005);
-    glft.scene.position.set(0, -0.35,0);
+    glft.scene.position.set(0, -0.035 ,0);
     glft.scene.traverse((object) => {
       if (object instanceof Mesh) {
         object.castShadow = true;
